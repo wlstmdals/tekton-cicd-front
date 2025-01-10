@@ -1,7 +1,7 @@
 # Use base node 8 image from Docker hub
 FROM node:8
 
-WORKDIR /tekton-cicd-front
+WORKDIR /frontend
 
 # Copy package.json and install dependencies
 COPY package*.json ./
