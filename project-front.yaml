@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: sushijin/soribada-front:1.0
+        image: sushijin/frontend:10.13
         ports:
         - containerPort: 8000
         env:
